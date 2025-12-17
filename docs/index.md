@@ -8,7 +8,7 @@ hero:
   # text: "Proxy Remote Resources to Your Local Environment"
   tagline: Debug, test, and override online resources locally — with a fully visual Chrome extension.
   image: 
-    src: images/preview.png
+    src: /images/preview.png
   actions:
     - theme: brand
       text: Add to Chrome

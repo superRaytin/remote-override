@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
+    "build-gh-pages": "vitepress build docs --base /local-resource-proxy-site/",
     "preview": "vitepress preview docs"
   },
   "devDependencies": {
