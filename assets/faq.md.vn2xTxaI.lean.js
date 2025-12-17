@@ -1,1 +1,0 @@
-import{_ as a,c as s,o as r,ah as t}from"./chunks/framework.Cga242Po.js";const m=JSON.parse('{"title":"FAQ","description":"","frontmatter":{},"headers":[],"relativePath":"faq.md","filePath":"faq.md"}'),i={name:"faq.md"};function l(o,e,n,h,d,p){return r(),s("div",null,[...e[0]||(e[0]=[t("",12)])])}const f=a(i,[["render",l]]);export{m as __pageData,f as default};
