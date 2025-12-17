@@ -4,6 +4,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "Local Resource Proxy",
   description: "A visual Chrome extension that proxies remote resources to your local environment",
+  base: '/local-resource-proxy-site/',
   themeConfig: {
     logo: '/images/logo.png',
     // https://vitepress.dev/reference/default-theme-config
