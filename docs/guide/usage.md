@@ -40,15 +40,20 @@ The rule defines how a remote request should be redirected when it matches.
 
 ## Step 3: Apply and Manage Rules
 
-After creating a rule, you can:
+After creating or modifying a rule, you can:
 
 - Enable or disable it at any time
 - Duplicate it to create variations
 - Edit or delete it when no longer needed
 
-Rules are applied immediately after being enabled.
+::: tip
+All rule changes are **saved automatically**.  
+However, changes will only take effect after clicking **`Apply Rules`**.
 
-## Typical Example
+This allows you to review and adjust multiple rules before applying them at once.
+:::
+
+## Example
 
 - Remote URL:
   ```
