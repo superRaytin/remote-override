@@ -29,7 +29,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/superRaytin/local-resource-proxy-docs' }
+      { icon: 'github', link: 'https://github.com/superRaytin/local-resource-proxy-site' }
     ],
 
     footer: {
