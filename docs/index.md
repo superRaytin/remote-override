@@ -1,0 +1,35 @@
+---
+# https://vitepress.dev/reference/default-theme-home-page
+layout: home
+
+hero:
+  # name: "Local Resource Proxy"
+  text: "Make remote resources local. Instantly."
+  # text: "Proxy Remote Resources to Your Local Environment"
+  tagline: Debug, test, and override online resources locally — with a fully visual Chrome extension.
+  image: 
+    src: images/preview.png
+  actions:
+    - theme: brand
+      text: Add to Chrome
+      link: https://chromewebstore.google.com/detail/local-resource-proxy/beegiejnndpmaffebpfmcpifhaljjmam
+    - theme: alt
+      text: How to Use
+      link: /guide/usage
+
+features:
+  - title: 🔁 Remote → Local Proxy
+    details: "<strong>Proxy remote URLs to local services instantly.</strong><br />Map production or online resources to localhost for fast debugging and testing — without touching backend environments."
+  - title: 🧠 Visual Rule Management
+    details: "Create, edit, and manage rules visually.<br />
+      Add, duplicate, or remove rules through a clean interface designed for developers."
+  - title: 🖱 Drag & Drop Priority
+    details: "Control matching order with drag & drop.<br />Reorder rules visually to define priority and override behavior with confidence."
+  - title: 🗂 Rule Grouping
+    details: "Organize rules by project or feature.<br />Group related rules together to keep complex setups structured and readable."
+  - title: ⚡ One-click Enable / Disable
+    details: "Turn rules on or off instantly.<br />Apply or pause rules without restarting Chrome or refreshing configurations."
+  - title: 🧪 Built for Real-world Debugging
+    details: "Designed for modern frontend workflows.<br />Ideal for API testing, CDN overrides, third-party script debugging, and more."
+---
+
