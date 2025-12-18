@@ -1,6 +1,4 @@
-# Why This Extension Exists
-
-### The Idea
+# Introduction
 
 The core idea is simple:
 
@@ -8,25 +6,13 @@ The core idea is simple:
 
 By defining clear mapping rules, specific online URLs can be redirected to local services directly inside Chrome — without changing servers or affecting other users.
 
+## Why This Exists
 
-### Typical Use Cases
+Frontend developers often face challenges like:
 
-- **Local API testing and integration** against remote environments
-- **Overriding CDN or static resources** for quick validation
-- **Debugging third-party scripts** with local copies
-- **Investigating production-only issues** safely
-- **Managing multiple proxy setups** in large projects
+- Testing local changes against production pages
+- Overriding CDN or static assets temporarily
+- Debugging third-party scripts
+- Switching between multiple local implementations quickly
 
-
-### Who It’s For
-
-This extension is built for developers and testers who need **fast, safe, and repeatable control over web resources** during debugging and development.
-
-
-### Philosophy
-
-- Browser-only, no system-wide side effects
-- Visual and explicit rule definitions
-- Focused on real-world frontend workflows
-
-The goal is to provide a lightweight, practical alternative for everyday resource debugging needs.
+Traditional solutions such as DevTools Overrides, system hosts file modifications, or proxy tools often fall short due to complexity, global side effects, or lack of flexibility. This extension solves these problems at the browser level, offering a clean, predictable workflow.

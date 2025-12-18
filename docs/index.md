@@ -3,9 +3,7 @@
 layout: home
 
 hero:
-  # name: "Local Resource Proxy"
   text: "Make remote resources local. Instantly."
-  # text: "Proxy Remote Resources to Your Local Environment"
   tagline: Debug, test, and override online resources locally — with a fully visual Chrome extension.
   image: 
     src: /images/preview.png

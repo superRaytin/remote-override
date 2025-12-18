@@ -1,68 +1,35 @@
-# How to use
+# How to Use
 
-## Basic Workflow
+Follow the steps below to get started.
 
-Using the extension typically follows four simple steps:
+## Setup
 
-1. Start a local server for your resources
-2. Define a proxy rule in the extension
-3. Apply the rule
-4. Refresh the target page
-
-Once applied, matching remote requests will be redirected to your local service.
-
-## Step 1: Start a Local Service
-
-Prepare the local files or APIs you want to use, then start a local server.
-
-Example using `http-server`:
+1. Open a terminal and navigate to your local resources directory.
+2. Start your local server, for example:
 
 ```bash
 npx http-server -p 3009
 ```
 
-Make sure the local service is accessible in your browser, for example:
+3. Open the extension UI and add a new rule:
+   - **Remote URL:** the URL or pattern to override
+   - **Local URL:** your local service URL
 
-```
-http://localhost:3009
-```
+## Applying Rules
 
-## Step 2: Create a Proxy Rule
+- Changes are **saved immediately**, but **only take effect after clicking "Apply Rules"**.
+- Refresh the target web page to see the effect.
+- No browser restart is required.
 
-Open the extension and add a new rule.
+## Revert Rules
 
-For each rule, configure:
+Restores the rule set to the **`last applied snapshot`**.
 
-- **`Remote URL`**: the online resource URL to match
-- **`Local URL`**: the local service URL that will replace it
-
-The rule defines how a remote request should be redirected when it matches.
-
-## Step 3: Apply and Manage Rules
-
-After creating or modifying a rule, you can:
-
-- Enable or disable it at any time
-- Duplicate it to create variations
-- Edit or delete it when no longer needed
+- Discards any pending changes that were not applied.
+- Restores rules exactly to the last successfully applied configuration.
+- Helps safely undo mistakes or experiments.
 
 ::: tip
-All rule changes are **saved automatically**.  
-However, changes will only take effect after clicking **`Apply Rules`**.
-
-This allows you to review and adjust multiple rules before applying them at once.
+Revert only affects unapplied changes. Applied rules become the new baseline.
 :::
-
-## Example
-
-- Remote URL:
-  ```
-  https://cdn.example.com/app.js
-  ```
-- Local URL:
-  ```
-  http://localhost:3009/app.js
-  ```
-
-After applying the rule and refreshing the page, the browser will load the local file instead of the remote one.
 
