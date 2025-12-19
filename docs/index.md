@@ -3,6 +3,7 @@
 layout: home
 
 hero:
+  # name: Remote Override
   text: "Make remote resources local. Instantly."
   tagline: Debug, test, and override online resources locally — with a fully visual Chrome extension.
   image: 

@@ -1,0 +1,31 @@
+/* .VPHero::before,
+.VPHero::after {
+  content: '';
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.35;
+} */
+
+/* .VPHero::before {
+  background: #6366f1;
+  left: -10px;
+} */
+
+/* .VPHero::after {
+  background: #22d3ee;
+  right: -200px;
+  top: 100px;
+} */
+
+.VPHero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.VPHero .image-bg {
+  background-image: linear-gradient(-45deg, #6366f1 50%, #22d3ee 50%);
+  filter: blur(68px);
+}
