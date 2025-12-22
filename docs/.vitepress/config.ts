@@ -9,12 +9,12 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/guide/intro', activeMatch: '/guide/' },
+      { text: 'Guide', link: '/guide/installation', activeMatch: '/guide/' },
       { text: 'FAQ', link: '/faq' }
     ],
 
     sidebar: [
-      { text: 'Introduction', link: '/guide/intro' },
+      { text: 'Installation', link: '/guide/installation' },
       { text: 'How to use', link: '/guide/usage' },
       { text: 'Best practices', link: '/guide/best-practices' },
       { text: 'How it works', link: '/guide/internals' },

@@ -32,3 +32,9 @@ features:
     details: "Designed for modern frontend workflows.<br />Ideal for API testing, CDN overrides, third-party script debugging, and more."
 ---
 
+::: info Early Access
+Want to try the latest features before Chrome review completes?  
+Install the latest build via GitHub Releases.
+
+👉 [Early Access Installation →](/guide/installation)
+:::
