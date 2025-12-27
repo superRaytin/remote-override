@@ -22,7 +22,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/superRaytin/remote-override-site' }
+      { icon: 'github', link: 'https://github.com/superRaytin/remote-override' }
     ],
 
     footer: {

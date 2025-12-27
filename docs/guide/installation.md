@@ -21,7 +21,7 @@ This option is intended for **developers and advanced users**.
 
 ### Download
 
-👉 **[Download latest build (ZIP)](https://github.com/superRaytin/remote-override-site/releases/latest)**
+👉 **[Download latest build (ZIP)](https://github.com/superRaytin/remote-override/releases/latest)**
 
 > This package contains the most recent features that may not yet be available in the Chrome Web Store.
 

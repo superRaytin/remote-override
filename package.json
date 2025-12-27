@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
-    "build-gh-pages": "vitepress build docs --base /remote-override-site/",
+    "build-gh-pages": "vitepress build docs --base /remote-override/",
     "preview": "vitepress preview docs"
   },
   "devDependencies": {
